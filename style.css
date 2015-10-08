@@ -1,0 +1,85 @@
+body {
+  color: orange;
+  font-family: Arial;
+  text-align: center;
+  background: url(http://i.stack.imgur.com/7YKUD.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  text-align: center;
+  vertical-align: middle;  
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: none;
+}
+
+#me {
+  float: left;
+}
+
+#blog-title {
+  clear: both;
+  font-family: "Comic Sans MS";
+  color: orange;
+}
+
+.navigation > ul >li {
+  list-style-type: none;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  color: orange;
+  width: 200px;
+  margin: 3px 8px;
+  cursor: pointer;
+}
+
+#grass {
+  color: blue;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.navigation > ul >li:hover {
+  background: white;
+}
+
+
+.large {
+  font-size: 40px;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.cleared {
+  clear: both;
+}
+
+.margin-bottom {
+  margin: 0 0 150px 0;
+}
+
+.name {
+  text-decoration: none;
+  color: orange;
+  text-align: left;
+}
